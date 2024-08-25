@@ -1,0 +1,45 @@
+# Ignore all .txt files
+*.txt
+
+# Python specific files and directories
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.env
+venv/
+env/
+ENV/
+venv.bak/
+*.egg-info/
+instance/
+.pytest_cache/
+
+# Node.js specific files and directories
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+*.log
+
+# React specific files
+*.log
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+build/
+dist/
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# Ignore any other directories or files you want
+.DS_Store
+.vscode/
+.idea/
